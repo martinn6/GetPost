@@ -52,7 +52,7 @@ app.post('/post-loopback-improved', function(req,res){
   console.log(req.body);
   var context = {};
   context.dataList = qParams;
-  res.render('post-loopback-improved', context);
+  res.render('get-loopback-improved', context);
 });
 
 app.get('/other-page',function(req,res){
